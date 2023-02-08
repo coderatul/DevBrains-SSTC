@@ -32,7 +32,7 @@ body {
 }
 
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 0 9%;
     padding-top: 0.5rem;
     padding-bottom: 2rem;
@@ -123,6 +123,7 @@ header label {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background: url(../images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,6 +161,9 @@ header label {
     font-size: 1.7rem;
     color: #666;
     padding: 1rem 0;
+}
+.features{
+    height: 80vh;
 }
 
 .features .box-container {
@@ -203,6 +207,7 @@ header label {
     background-size: cover;
     background-position: center;
     padding-bottom: 3rem;
+    height: 100vh;
 }
 
 .about .column {
@@ -360,6 +365,7 @@ header label {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     flex-wrap: wrap;
     padding-bottom: 4rem;
 }
@@ -617,6 +623,7 @@ header label {
 .swiper {
     width: 100%;
     margin-top: 6rem;
+    height: 80vh;
 }
 
 .swiper-wrapper {
@@ -640,7 +647,7 @@ header label {
     align-items: center;
     flex-direction: column;
     margin: 0 2em;
-
+    margin-top: -85px;
 }
 
 .swiper-slide:not(.swiper-slide-active) {
